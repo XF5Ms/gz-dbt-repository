@@ -42,4 +42,5 @@ models:
     intermediate:
       materialized: view
     marts:
-      materialized: table
+      finance:
+       materialized: table
